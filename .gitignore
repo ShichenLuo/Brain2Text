@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+
+# Local datasets and generated artifacts
+data/*
+!data/README.md
+data/raw/
+data/processed/
+t15_copyTask_neuralData/
+model_saving/
+artifacts/checkpoints/
+src/brain2text.egg-info/
+*.hdf5
+*.h5
+*.pth
+*.pt
+*.bin
+*.arpa
+
+# Generated reports
+reports/
+phoneme_confusion_matrix*.csv
