@@ -13,6 +13,10 @@ dependencies = [
     "pandas>=2.0",
     "scipy>=1.10",
     "torch>=2.0",
+    "tqdm>=4.66",
+    "datasets>=2.19",
+    "transformers>=4.41",
+    "peft>=0.11",
 ]
 
 [project.optional-dependencies]
