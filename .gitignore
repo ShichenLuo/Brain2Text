@@ -18,6 +18,8 @@ data/raw/
 data/processed/
 t15_copyTask_neuralData/
 model_saving/
+qwen25_7b_phoneme_lora/
+Qwen2.5-7B-Instruct/
 artifacts/checkpoints/
 src/brain2text.egg-info/
 *.hdf5
