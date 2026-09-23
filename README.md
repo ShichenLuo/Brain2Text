@@ -40,7 +40,7 @@ excluded from version control; see `data_link.txt` for the source-data pointer.
 python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # macOS/Linux: source .venv/bin/activate
-python -m pip install -e ".[phonemes,dev]"
+python -m pip install -e .
 ```
 
 Verify the package can be imported:
@@ -53,8 +53,4 @@ The project is research code rather than a clinical or production speech system.
 Results depend on the recording session, preprocessing choices, checkpoint, and
 LLM prompt/model configuration.
 
-## Reproducibility notes
-
-Record the dataset release, checkpoint filename, random seed, device, and decoder
-parameters alongside each experiment. Keep private or restricted neural recordings
 outside the repository and do not commit participant-identifying metadata.
