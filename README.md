@@ -42,15 +42,3 @@ python -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -e .
 ```
-
-Verify the package can be imported:
-
-```bash
-python -m brain2text --show-root
-```
-
-The project is research code rather than a clinical or production speech system.
-Results depend on the recording session, preprocessing choices, checkpoint, and
-LLM prompt/model configuration.
-
-outside the repository and do not commit participant-identifying metadata.
